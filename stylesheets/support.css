@@ -22,6 +22,8 @@
 
 #supportinfo div ul {
   width: 40%;
+  list-style: circle;
+  min-height: 150px;
 }
 
 
