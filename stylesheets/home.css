@@ -20,7 +20,7 @@ footer {
 @media only screen and (max-width: 600px) {
   .warning {
     width: 320px;
-    margin-left: calc(50vw - 168px);
+    margin-left: calc(50vw - 160px);
   }
 }
 
