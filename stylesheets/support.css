@@ -1,72 +1,140 @@
+/* Support Info */
+
+#supportinfo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+#supportinfo div {
+  margin: 2%;
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#supportinfo h3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#supother1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#supother1 h2 {
+  border-radius: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 25px;
+  color: white;
+  width: 50%;
+  background-color: rgb(22, 139, 211);
+}
+
+#supother1 p {
+  margin-top: 20px;
+}
+
+#storeandpurchases {
+  display: flex;
+  flex-basis: calc(46% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+#storeandpurchases h3 {
+  background-color: rgb(255, 189, 78);
+  width: 50%;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  line-height: 14px;
+}
+
+#application {
+  display: flex;
+  flex-basis: calc(46% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+#application h3 {
+  background-color: purple;
+  width: 50%;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  line-height: 14px;
+}
+
+#punishments {
+  display: flex;
+  flex-basis: calc(46% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+#punishments h3 {
+  background-color: crimson;
+  width: 50%;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  line-height: 14px;
+}
+
+#contactanddiscord {
+  display: flex;
+  flex-basis: calc(46% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+ #contactanddiscord h3 {
+   background-color: rgb(114, 137, 218);
+   width: 50%;
+   border-radius: 15px;
+   font-size: 20px;
+   color: white;
+   line-height: 14px;
+ }
+
+ #supother2 {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+
+#supother2 p:nth-child(2) {
+  margin-top: 10px;
+}
+
+/* Discord Div */
+
 #discord {
   text-align: center;
   margin-top: 5%;
 }
 
+#discord h3 {
+  margin: 15px;
+  font-size: 20px;
+}
+
+/* Footer alignment */
+
 footer {
   margin-top: 35vh;
 }
-
- #storeandpurchases {
-  display: block;
-  width: 40%;
-  margin-left: 10%;
- }
-
- #storeandpurchases h3 {
-   background-color: rgb(255, 189, 78);
-   width: 204px;
-   border-radius: 15px;
-   font-size: 20px;
-   color: white;
-   line-height: 14px;
- }
-
- #application {
-   display: block;
-   width: 40%;
-   margin-left: 50%;
- }
-
- #application h3 {
-   background-color: purple;
-   width: 110px;
-   border-radius: 15px;
-   font-size: 20px;
-   color: white;
-   line-height: 14px;
- }
-
- #punishments {
-   display: block;
-   width: 40%;
-   margin-left: 10%;
- }
-
- #punishments h3 {
-   background-color: crimson;
-   width: 130px;
-   border-radius: 15px;
-   font-size: 20px;
-   color: white;
-   line-height: 14px;
- }
-
- #contactanddiscord {
-   display: block;
-   width: 40%;
-   margin-left: 50%;
- }
-
-  #contactanddiscord h3 {
-    background-color: rgb(114, 137, 218);
-    width: 200px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: white;
-    line-height: 14px;
-  }
-
- #other {
-
- }
