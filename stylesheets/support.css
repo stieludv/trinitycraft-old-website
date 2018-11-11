@@ -6,3 +6,68 @@
 footer {
   margin-top: 35vh;
 }
+
+ #storeandpurchases {
+  display: block;
+  width: 40%;
+  margin-left: 10%;
+  display:
+ }
+
+ #storeandpurchases h3 {
+   background-color: rgb(255, 189, 78);
+   width: 204px;
+   border-radius: 15px;
+   font-size: 20px;
+   color: white;
+   line-height: 14px;
+ }
+
+ #application {
+   display: block;
+   width: 40%;
+   margin-left: 50%;
+ }
+
+ #application h3 {
+   background-color: purple;
+   width: 110px;
+   border-radius: 15px;
+   font-size: 20px;
+   color: white;
+   line-height: 14px;
+ }
+
+ #punishments {
+   display: block;
+   width: 40%;
+   margin-left: 10%;
+ }
+
+ #punishments h3 {
+   background-color: crimson;
+   width: 130px;
+   border-radius: 15px;
+   font-size: 20px;
+   color: white;
+   line-height: 14px;
+ }
+
+ #contactanddiscord {
+   display: block;
+   width: 40%;
+   margin-left: 50%;
+ }
+
+  #contactanddiscord h3 {
+    background-color: rgb(114, 137, 218);
+    width: 200px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    line-height: 14px;
+  }
+
+ #other {
+
+ }
