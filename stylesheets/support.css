@@ -20,6 +20,11 @@
   justify-content: center;
 }
 
+#supportinfo div ul {
+  width: 40%;
+}
+
+
 #supportinfo h3 {
   padding-top: 12px;
   padding-bottom: 12px;
