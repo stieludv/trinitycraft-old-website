@@ -7,6 +7,7 @@
   width: 80%;
   margin-left: 10%;
   margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 #supportinfo div {
@@ -31,6 +32,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: transparent !important;
 }
 
 #supother1 h2 {
@@ -39,12 +41,8 @@
   padding-bottom: 12px;
   font-size: 25px;
   color: white;
-  width: 50%;
+  width: 100%;
   background-color: rgb(22, 139, 211);
-}
-
-#supother1 p {
-  margin-top: 20px;
 }
 
 #storeandpurchases {
@@ -136,5 +134,51 @@
 /* Footer alignment */
 
 footer {
-  margin-top: 35vh;
+  margin-top: 23vh;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 1000px) {
+  #supportinfo div {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #supportinfo div h3 {
+    width: 80%;
+  }
+}
+
+/* @media only and screen (max-width: 1000px) {
+  #punishments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only and screen (max-width: 1000px) {
+  #contactanddiscord {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only and screen (max-width: 1000px) {
+  #application {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only and screen (max-width: 1000px) {
+  #storeandpurchases {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+} */
