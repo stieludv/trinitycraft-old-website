@@ -363,6 +363,8 @@ footer {
   list-style: none;
   text-align: right;
   margin-right: 20vw;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .footer1 ul li {
