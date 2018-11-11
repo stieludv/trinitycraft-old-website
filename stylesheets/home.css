@@ -1,27 +1,18 @@
-div p {
-  text-align: center;
-}
-
-footer {
-  margin-top: 55vh;
+#index-introduction {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .warning {
-  margin-top: 8%;
-  margin-bottom: 8%;
+  flex-basis: 25%;
   border-style: solid;
   border-width: 2px;
   border-color: rgb(255, 0, 0);
   width: 400px;
   border-radius: 20px;
-  margin-left: calc(50vw - 208px);
-}
-
-@media only screen and (max-width: 600px) {
-  .warning {
-    width: 320px;
-    margin-left: calc(50vw - 160px);
-  }
+  height: 65px;
 }
 
 .warning img {
@@ -36,7 +27,23 @@ footer {
 .warning p {
   font-size: 1.2em;
   color: red;
+  text-align: center;
 }
+
+#definition {
+  flex-basis: 25%;
+  line-height: 20px;
+}
+
+#definition h4 {
+  background-color: rgb(22, 139, 211);
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  line-height: 16px;
+}
+
+/* TEMPORARY Welcome section for update(hub) */
 
 #welcomediv {
   text-align: center;
@@ -53,23 +60,6 @@ footer {
   margin: 20px;
 }
 
-#definition {
-  display: block;
-  margin-left: auto;
-  text-align: left;
-  width: 20%;
-  line-height: 20px;
-}
-
-#definition h4 {
-  background-color: rgb(22, 139, 211);
-  width: 370px;
-  border-radius: 15px;
-  font-size: 20px;
-  color: white;
-  line-height: 16px;
-}
-
 #welcomeslider img {
   width: 70%;
   /* border-radius: 20px;
@@ -78,7 +68,28 @@ footer {
   border-color: rgb(22, 139, 211); */
 }
 
+/* Footer alignment */
+
+footer {
+  margin-top: 55vh;
+}
+
 /* Responsive */
+
+@media only screen and (max-width: 600px) {
+  #index-introduction {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .warning {
+    width: 320px;
+    margin-left: calc(50vw - 205px);
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   #welcomeslider  img {
