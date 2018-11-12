@@ -12,12 +12,15 @@
 
 #supportinfo div {
   margin: 2%;
-  background-color: rgb(230, 230, 230);
+  /* background-color: rgb(44,47,51); */
+  background-color: rgb(2, 2, 4);
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  box-shadow: 5px 6px 10px 4px #777;
 }
 
 #supportinfo div ul {
@@ -26,6 +29,27 @@
   min-height: 150px;
 }
 
+#supportinfo div ul a {
+  /* color: rgb(22, 139, 211); */
+  color: white;
+  /* color: rgb(170, 170, 200); */
+  font-size: 80%;
+  text-decoration: none;
+  -webkit-transition: text-decoration 1.4s linear;
+  -moz-transition: text-decoration 1.4s linear;
+  -o-transition: text-decoration 1.4s linear;
+  transition: text-decoration 1.4s linear;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+}
+
+#supportinfo div ul a:hover {
+  /* color: black; */
+  color: rgb(22, 139, 211);
+  text-decoration: underline;
+}
 
 #supportinfo h3 {
   padding-top: 12px;
@@ -39,7 +63,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
 }
 
 #supother1 h2 {
@@ -48,8 +72,8 @@
   padding-bottom: 12px;
   font-size: 25px;
   color: white;
-  width: 100%;
-  background-color: rgb(22, 139, 211);
+  /* width: 100%;
+  background-color: rgb(22, 139, 211); */
 }
 
 #storeandpurchases {
@@ -157,6 +181,21 @@ footer {
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  #supportinfo div ul {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #supportinfo div {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+
 
 /* @media only and screen (max-width: 1000px) {
   #punishments {
