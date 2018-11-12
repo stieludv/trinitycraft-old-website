@@ -13,7 +13,9 @@
 #supportinfo div {
   margin: 2%;
   /* background-color: rgb(44,47,51); */
-  background-color: rgb(2, 2, 4);
+  /* background-color: rgb(2, 2, 4); */
+  background-image: url("../backgroundbanner.png");
+  background-position: center;
   padding: 20px;
   border-radius: 20px;
   display: flex;
@@ -25,8 +27,12 @@
 
 #supportinfo div ul {
   width: 40%;
-  list-style: circle;
+  list-style: disc;
   min-height: 150px;
+}
+
+#supportinfo div ul li {
+  margin-top: 10px;
 }
 
 #supportinfo div ul a {
@@ -47,7 +53,7 @@
 
 #supportinfo div ul a:hover {
   /* color: black; */
-  color: rgb(22, 139, 211);
+  /* color: rgb(22, 139, 211); */
   text-decoration: underline;
 }
 
@@ -84,12 +90,17 @@
 }
 
 #storeandpurchases h3 {
-  background-color: rgb(255, 189, 78);
+  /* background-color: rgb(255, 189, 78); */
+  background-color: rgb(245, 169, 58);
   width: 50%;
   border-radius: 15px;
   font-size: 20px;
   color: white;
   line-height: 14px;
+}
+
+#storeandpurchases li:hover, #storeandpurchases a:hover {
+color: rgb(245, 169, 58) !important;
 }
 
 #application {
@@ -108,6 +119,10 @@
   line-height: 14px;
 }
 
+#application li:hover, #application a:hover {
+color: purple !important;
+}
+
 #punishments {
   display: flex;
   flex-basis: calc(46% - 40px);
@@ -124,6 +139,11 @@
   line-height: 14px;
 }
 
+#punishments li:hover, #punishments a:hover {
+color: crimson !important;
+}
+
+
 #contactanddiscord {
   display: flex;
   flex-basis: calc(46% - 40px);
@@ -131,7 +151,7 @@
   flex-direction: column;
 }
 
- #contactanddiscord h3 {
+#contactanddiscord h3 {
    background-color: rgb(114, 137, 218);
    width: 50%;
    border-radius: 15px;
@@ -140,7 +160,11 @@
    line-height: 14px;
  }
 
- #supother2 {
+#contactanddiscord li:hover, #contactanddiscord a:hover {
+ color: rgb(114, 137, 218) !important;
+ }
+
+#supother2 {
    display: flex;
    flex-direction: column;
    width: 100%;

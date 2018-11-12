@@ -137,6 +137,10 @@ nav ul li {
   margin-right: 40px;
 }
 
+#navul li:nth-child(2) {
+  margin-left: 40px;
+}
+
 #trinitynav.appear {
   display: inline
 }
