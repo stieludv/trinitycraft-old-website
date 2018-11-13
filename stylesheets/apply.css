@@ -49,7 +49,7 @@ section {
 
 #requirements {
   margin: auto;
-  margin-top: 100px;
+  margin-top: 75px;
   width: 80%;
   max-width: 1200px;
   border-left: 6px solid rgb(22, 139, 211);
@@ -84,25 +84,37 @@ section {
   align-items: center;
   margin-right: 70px;
   font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 15px;
+  color: white;
+}
+
+#chooserole li:hover {
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #chooserole li:nth-child(1) {
-  color: skyblue;
+  background-color: cyan;
 }
 
 #chooserole li:nth-child(2) {
-  color: red;
+  background-color: blue;
 }
 
 #chooserole li:nth-child(3) {
-  color: purple ;
+  background-color: orange;
 }
 
 #chooserole li:nth-child(4) {
-  color: yellow;
+  background-color: red;
 }
 
 #chooserole h4 {
   margin: 0;
   margin-bottom: 50px;
+  font-size: 20px;
 }
