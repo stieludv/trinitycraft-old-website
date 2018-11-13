@@ -78,10 +78,15 @@ section {
   margin-top: 3%;
 }
 
+#chooserole h4 {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
 #chooserole li {
-  display: inline;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   margin-right: 70px;
   font-weight: 600;
   padding-left: 40px;
@@ -90,15 +95,25 @@ section {
   padding-top: 20px;
   border-radius: 15px;
   color: white;
+  width: 80px;
+  filter: brightness(1);
+  -webkit-transition: 2s -webkit-filter ease-in;
+  -moz-transition: 2s -moz-filter ease-in;
+  -moz-transition: 2s filter ease-in;
+  -ms-transition: 2s -ms-filter ease-in;
+  -o-transition: 2s -o-filter ease-in;
+  transition: 2s filter ease-in, 2s -webkit-filter ease-in;
+  transition: border-radius 0.2s ease-in-out;
 }
 
 #chooserole li:hover {
   border-radius: 10px;
   cursor: pointer;
+  filter: brightness(90%);
 }
 
 #chooserole li:nth-child(1) {
-  background-color: cyan;
+  background-color: skyblue;
 }
 
 #chooserole li:nth-child(2) {
@@ -111,10 +126,4 @@ section {
 
 #chooserole li:nth-child(4) {
   background-color: red;
-}
-
-#chooserole h4 {
-  margin: 0;
-  margin-bottom: 50px;
-  font-size: 20px;
 }
