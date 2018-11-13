@@ -15,7 +15,6 @@ h4 {
   width: 144px;
   height: 24px;
   border: none;
-
 }
 
 #selector1 option {
@@ -41,4 +40,69 @@ section img {
 
 footer {
   margin-top: 25vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#requirements {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  max-width: 1200px;
+  border-left: 6px solid rgb(22, 139, 211);
+  background-color: lightgrey;
+}
+
+#requirements h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#requirements p {
+  margin-bottom: 30px;
+}
+
+#requirements li {
+  list-style: disc;
+  margin-left: 25px;
+}
+
+#chooserole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+#chooserole li {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+  font-weight: 600;
+}
+
+#chooserole li:nth-child(1) {
+  color: skyblue;
+}
+
+#chooserole li:nth-child(2) {
+  color: red;
+}
+
+#chooserole li:nth-child(3) {
+  color: purple ;
+}
+
+#chooserole li:nth-child(4) {
+  color: yellow;
+}
+
+#chooserole h4 {
+  margin: 0;
+  margin-bottom: 50px;
 }
