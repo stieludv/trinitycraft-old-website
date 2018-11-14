@@ -84,16 +84,20 @@ section {
   font-size: 20px;
 }
 
-#chooserole a {
+#chooserole li {
+  display: inline-block;
+}
+
+#chooserole ul li a {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+  text-align: center;
   margin-right: 80px;
   font-weight: 600;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
   border-radius: 15px;
   color: white;
-  width: 80px;
   filter: brightness(1);
   -webkit-transition: 2s -webkit-filter ease-in;
   -moz-transition: 2s -moz-filter ease-in;
@@ -105,10 +109,6 @@ section {
   text-decoration: none;
   color: white;
   background-color: black;
-}
-
-#chooserole li {
-  display: inline-block;
 }
 
 #chooserole a:hover {
