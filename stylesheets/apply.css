@@ -62,7 +62,7 @@ section {
 }
 
 #requirements p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #requirements li {
@@ -84,10 +84,8 @@ section {
   font-size: 20px;
 }
 
-#chooserole li {
-  display: inline-block;
-  text-align: center;
-  margin-right: 70px;
+#chooserole a {
+  margin-right: 80px;
   font-weight: 600;
   padding-left: 40px;
   padding-right: 40px;
@@ -104,26 +102,33 @@ section {
   -o-transition: 2s -o-filter ease-in;
   transition: 2s filter ease-in, 2s -webkit-filter ease-in;
   transition: border-radius 0.2s ease-in-out;
+  text-decoration: none;
+  color: white;
+  background-color: black;
 }
 
-#chooserole li:hover {
+#chooserole li {
+  display: inline-block;
+}
+
+#chooserole a:hover {
   border-radius: 10px;
   cursor: pointer;
   filter: brightness(90%);
 }
 
-#chooserole li:nth-child(1) {
-  background-color: skyblue;
+#chooserole li:nth-child(1) a {
+  background-color: cyan;
 }
 
-#chooserole li:nth-child(2) {
+#chooserole li:nth-child(2) a {
   background-color: blue;
 }
 
-#chooserole li:nth-child(3) {
+#chooserole li:nth-child(3) a {
   background-color: orange;
 }
 
-#chooserole li:nth-child(4) {
+#chooserole li:nth-child(4) a {
   background-color: red;
 }
