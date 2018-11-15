@@ -7,7 +7,8 @@ function ipcopy() {
   dummy.select();
   document.execCommand("copy");
   document.body.removeChild(dummy);
-  document.getElementById("randomshit").innerHTML = "Copied to clipboard";
+  // document.getElementById("randomshit").innerHTML = "Copied to clipboard";
+  document.getElementById("randomshit").innerHTML = "Copied the IP.";
 }
 
 function donateclick() {
