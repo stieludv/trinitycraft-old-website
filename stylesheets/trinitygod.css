@@ -331,8 +331,23 @@ nav ul li {
   color: rgb(22, 139, 211);
 }
 
-.topimage {
+.notice {
+  background-color: red;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
+.notice img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.notice p {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
 }
 
 footer {
@@ -406,6 +421,19 @@ footer {
   #top {
     min-height: 190px;
     height: 190px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .notice {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .notice img {
+    width: 40px;
+    height: 40px;
   }
 }
 

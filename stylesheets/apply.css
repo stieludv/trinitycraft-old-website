@@ -1,4 +1,4 @@
-h4 {
+#requirementssection h4 {
   text-align: center;
   margin-top: 20vh;
 }
@@ -27,13 +27,13 @@ h4 {
   background-color: rgb(11, 128, 200)
 }
 
-article {
+#requirementssection article {
   margin-left: 20vw;
   margin-top: 10vh;
   /* width: 500px; */
 }
 
-section img {
+#requirementssection img {
   /* width: 500px; */
   margin-top: 10vh;
 }
@@ -42,7 +42,7 @@ footer {
   margin-top: 25vh;
 }
 
-section {
+#requirementssection {
   display: flex;
   flex-direction: column;
 }
