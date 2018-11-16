@@ -2,8 +2,8 @@
   margin-top: 7vh;
   display: flex;
   flex-direction: row;
-  width: 80%;
-  margin-left: 10%;
+  width: 60%;
+  margin-left: 20%;
   align-items: center;
   justify-content: center;
 }
@@ -15,6 +15,10 @@
 #definition {
   flex: 1;
   line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #definition h4 {
@@ -26,6 +30,12 @@
   text-align: center;
   margin-bottom: 3%;
   width: 320px;
+}
+
+@media only screen and (min-width: 1400px) {
+  #definition p {
+    width: 80%;
+  }
 }
 
 /* TEMPORARY Welcome section for update(hub) */
