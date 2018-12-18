@@ -1,134 +1,15 @@
-#requirementssection h4 {
-  text-align: center;
-  margin-top: 20vh;
-}
-
-#selector1 {
-  margin-left: calc(50% - 72px);
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 5px;
-  background-color: rgb(22, 139, 211);
-  color: white;
-  text-align: center;
-  width: 144px;
-  height: 24px;
-  border: none;
-}
-
-#selector1 option {
-  text-align: center;
-  padding: 0;
-}
-
-#selector1:hover {
-  border-radius: 0px;
-  background-color: rgb(11, 128, 200)
-}
-
-#requirementssection article {
-  margin-left: 20vw;
-  margin-top: 10vh;
-  /* width: 500px; */
-}
-
-#requirementssection img {
-  /* width: 500px; */
-  margin-top: 10vh;
-}
-
-footer {
-  margin-top: 25vh;
-}
-
 #requirementssection {
-  display: flex;
-  flex-direction: column;
-}
-
-#requirements {
-  margin: auto;
-  margin-top: 75px;
   width: 80%;
-  max-width: 1200px;
-  border-left: 6px solid rgb(22, 139, 211);
-  background-color: lightgrey;
-}
-
-#requirements h3 {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#requirements p {
-  margin-bottom: 20px;
-}
-
-#requirements li {
-  list-style: disc;
-  margin-left: 25px;
+  margin-left: 10%;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 
 #chooserole {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3%;
+  text-align: center;
+  margin-top: 40px;
 }
 
 #chooserole h4 {
-  margin: 0;
-  margin-bottom: 50px;
-  font-size: 20px;
-}
-
-#chooserole li {
-  display: inline-block;
-}
-
-#chooserole ul li a {
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 150px;
-  text-align: center;
-  margin-right: 80px;
-  font-weight: 600;
-  border-radius: 15px;
-  color: white;
-  filter: brightness(1);
-  -webkit-transition: 2s -webkit-filter ease-in;
-  -moz-transition: 2s -moz-filter ease-in;
-  -moz-transition: 2s filter ease-in;
-  -ms-transition: 2s -ms-filter ease-in;
-  -o-transition: 2s -o-filter ease-in;
-  transition: 2s filter ease-in, 2s -webkit-filter ease-in;
-  transition: border-radius 0.2s ease-in-out;
-  text-decoration: none;
-  color: white;
-  background-color: black;
-}
-
-#chooserole a:hover {
-  border-radius: 10px;
-  cursor: pointer;
-  filter: brightness(90%);
-}
-
-#chooserole li:nth-child(1) a {
-  background-color: cyan;
-}
-
-#chooserole li:nth-child(2) a {
-  background-color: blue;
-}
-
-#chooserole li:nth-child(3) a {
-  background-color: orange;
-}
-
-#chooserole li:nth-child(4) a {
-  background-color: red;
+  margin: 10px;
 }
